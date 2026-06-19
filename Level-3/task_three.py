@@ -3,9 +3,10 @@ Note: Do not add ANY variables to the global scope. This WILL break the tests.
 """
 
 
-def generate_invoice(receipt_string: str) -> str:
+def generate_invoice(receipt: str) -> str:
     """Generates a VAT invoice."""
-    receipt_line_list = receipt_string.splitlines()
+    receipt_line_list = receipt.splitlines()
+
     vat_receipt = "VAT RECEIPT" + "\n" + "\n"
 
     for line in receipt_line_list[:-1]:
