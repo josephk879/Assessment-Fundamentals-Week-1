@@ -19,6 +19,7 @@ def add_to_basket(item: dict) -> list[dict]:
 
 
 def duplicate_count(item_price: str, item_name: str, basket: list) -> dict:
+    """Counts duplicate names"""
     count = 0
     for item in basket:
         if item["price"] == item_price:
