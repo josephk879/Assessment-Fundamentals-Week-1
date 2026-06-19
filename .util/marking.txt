@@ -15,9 +15,8 @@ Level-2/task_two.py:43:0: C0301: Line too long (114/100) (line-too-long)
 Level-2/task_two.py:21:53: W0621: Redefining name 'basket' from outer scope (line 6) (redefined-outer-name)
 Level-2/task_two.py:31:21: W0621: Redefining name 'basket' from outer scope (line 6) (redefined-outer-name)
 ************* Module task_three
-Level-3/task_three.py:6:21: W0621: Redefining name 'receipt_string' from outer scope (line 30) (redefined-outer-name)
-Level-3/task_three.py:30:4: C0103: Constant name "receipt_string" doesn't conform to UPPER_CASE naming style (invalid-name)
+Level-3/task_three.py:31:4: C0103: Constant name "receipt_string" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 9.10/10 (previous run: 9.10/10, +0.00)
+Your code has been rated at 9.25/10 (previous run: 9.25/10, +0.00)
 
