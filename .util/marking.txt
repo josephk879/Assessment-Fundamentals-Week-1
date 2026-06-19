@@ -7,7 +7,7 @@ Level-1/test_one_task.py .............                                   [ 48%]
 Level-2/test_two_task.py FFFFFFF                                         [ 74%]
 Level-3/test_three_task.py FFFFFFF                                       [100%]
 
-======================== 14 failed, 13 passed in 0.09s =========================
+======================== 14 failed, 13 passed in 0.11s =========================
 ************* Module task_one
 Level-1/task_one.py:16:21: W0621: Redefining name 'basket' from outer scope (line 7) (redefined-outer-name)
 ************* Module task_two
